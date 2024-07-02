@@ -22,7 +22,7 @@ function App() {
   backgrounds.set('mild','linear-gradient(90deg, rgba(0,165,215,1) 0%, rgba(54,132,168,1) 39%, rgba(156,173,177,1) 100%)');
   backgrounds.set('overcast',' background: linear-gradient(45deg, #c3eafa, #cacbcc)')
   backgrounds.set('snow','linear-gradient(90deg, rgba(240,240,240,1) 0%, rgba(244,244,244,1) 39%, rgba(249,249,249,1) 100%)');
-  const[background,setBackground] = useState('white');
+  const[background,setBackground] = useState('black');
 
 
 

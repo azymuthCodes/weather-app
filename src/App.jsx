@@ -31,7 +31,6 @@ function App() {
     const apiKey = "2dde2e74e010401496811402241904";
     const apiUrl = ` https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityInput.value}`;
     const response = await fetch(apiUrl).then((response)=>response.json().then((current)=>current));
-    console.log(response);
     setWeatherData(response.location.name,response.current.temp_c,response.current.humidity,response.current.wind_kph);
     getDayWeatherIcon(response.current.condition.text);
   }

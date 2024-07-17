@@ -4,6 +4,8 @@ Weather App offers real-time weather updates with an intuitive user interface. B
 
 
 (Note:If it shows white background that means I havent added that particular weather condition yet)
+
+
 (Cities to try:Abu Dhabi,Fredericton,Toronto,Sydney)
 Website: https://azymuthcodes.github.io/weather-app/
 
